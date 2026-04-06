@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Allow C++ source files
+!*.cpp
+
+# Allow Markdown files
+!*.md
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow directories (so we can traverse into them)
+!*/
